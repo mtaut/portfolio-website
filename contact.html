@@ -40,24 +40,29 @@
       <div> 
         <h1>Contact</h1>
         <div>Email:<a href="mailto:johnbutts17@gmail.com">johnbutts17(at)gmail(dot)com</a>
-        <br>Phone:<a href="tel:+1 222 333 4444">+1 222 333 4444</a>
+        <br>Phone:<a href="tel:+14062700630">+1-406-270-0630</a>
         <br>
         <br>
         <a href="mailto:johnbutts17@gmail.com">Contact me</a>
       </div>
       <br>
       </div>
-        <form action="" method="post" id="contact form">
+        <form action="#" method="post" id="contact__form">
           <label for="name">*Name</label>
           <input type="text" id="name" name="name" required>
+
           <label class="standard-label" for="contact-email">*Email: </label>
           <input type="email" id="contact-email" required>
+
           <label for="telephone">Telephone:</label>
-          <input type="telephone" id="telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-          <label for="message">*Message: </label>
+          <input type="tel" id="telephone">
+              <!--REMOVED: pattern="\d{3}[\-]\d{3}[\-]\d{4}"-->
+
+          <label for="message">*Message:</label>
           <textarea maxlength="240" id="message" required></textarea>    
           <input type="submit" value="Send message">
-          <p1>* required</p1>
+
+          <h4>* required</h4>
         </form>
     </div>  
     <script src="js/tota11y.min.js"></script>
