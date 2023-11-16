@@ -73,6 +73,10 @@ a:focus {
     height: 30px;
 }
 
+#about__info {
+    list-style: none;
+}
+
 /*------------> Button begins here <------------*/
 
 .button {
