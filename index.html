@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 
-<html>
   <head>
     <link rel="shortcut icon" href="img/tramway-favicon.png" type="img/favicon.png">
     <meta charset="utf-8">        
+    <title>John Butts - Portfolio</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -12,15 +12,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Khula&family=Lato:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.production.css">
-    <title>John Butts - Portfolio</title>
-    
   </head>
-
   <body>
-    
     <header class="page-header">    
       <div>
-        <img src="img/tramway-favicon.png" width="80px" height="80px" alt="logo" class="page-header__item">
+        <img src="img/tramway-favicon.png" id="page__logo" alt="logo" class="page-header__item">
         <h1 class="page-header__item">John Butts</h1>
       </div>
       <nav class="main-navigation page-header__item">
@@ -39,36 +35,31 @@
           </li>
         </ul>
       </nav>
+    </header>
+    <main> 
+      <div class="profile">
+        <img src="img/profile__portrait.png" class="profile__portrait" alt="john butts portrait">
+        <h1>Hello World</h1>
+        <p>My name is John Butts. I am a <span>web</span> developer student from the United States.</p>
+        <a href="work.html">Check out some of my code</a>
+      </div>
+      <div class="profile">      
+          <!--<a href="#">Default Link</a>-->
+          <button type="button">Button1</button>
+          <button>Button2</button>
+      </div>  
+    </main>  
+    <footer class="page-footer">
+        <p>Find me on</p>
+      <div class="social-media">
+        <img src="img/github_icon.svg" id="github__icon" alt="Github">
+        <img src="img/twitter_icon.svg" id="twitter__icon" alt="twitter">
+        <img src="img/linkedin_icon.svg" id="linkedin__icon" alt="LinkedIn">
+      </div>
+    </footer>
 
-  </header>
-  
-<main> 
-  <div class="profile">
-    <img src="img/profile__portrait.png" width="180px" height="180px" class="profile__portrait" alt="john butts portrait">
-    <h1>Hello World</h1>
-    <p>My name is John Butts. I am a <span>web</span> developer student from the United States.</p>
-    <a href="work.html">Check out some of my code</a>
-  </div>
-  
-  <div class="profile">      
-        <!--<a href="#">Default Link</a>-->
-        <button type="button">Button1</button>
-        <button>Button2</button>
-  </div>
-  
-</main>  
+    <script src="js/tota11y.min.js"></script>
 
-  <footer class="page-footer">
-    <p>Find me on</p>
-    <div class="social-media">
-    <img src="img/github_icon.svg" width="30px" height="30px" alt="Github">
-    <img src="img/twitter_icon.svg" width="30px" height="30px" alt="twitter">
-    <img src="img/linkedin_icon.svg" width="30px" height="30px" alt="LinkedIn">
-    </div>
-  </footer>
-
-  <script src="js/tota11y.min.js"></script>
-
-</body>
+  </body>
 
 </html>
