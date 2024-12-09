@@ -1,0 +1,505 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 2 version
+*/
+
+/*
+Colors used
+
+Background color - Vista Blue #93CBB6
+Text color - dark slate blue
+Secondary color - Dodger Blue #007bff
+*/
+
+body {
+    background-color: #93CBB6;
+    color: darkslateblue;
+    font-family: 'khula';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+h1 {
+    color: darkslateblue;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    color: darkslateblue;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h3 {
+    color: darkslateblue;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+a{
+    color: darkslateblue;
+}
+
+/*a:visited {
+    color:purple;
+}*/
+
+a:hover {
+   color:#007bff;
+}
+
+a:active {
+   color:#007bff;
+}
+
+a:focus {
+   color:#007bff;
+}
+
+#page__logo {
+    width: 80px;
+    height: 80px;
+}
+
+#github__icon,
+#twitter__icon,
+#linkedin_icon {
+    width: 30px;
+    height: 30px;
+}
+
+#about__info {
+    list-style: none;
+}
+
+/*------------> Button begins here <------------*/
+
+.button {
+    border: none;
+    display: inline-block;
+    font-family: inherit;
+    background-color: lightgray;
+    color: indigo;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+
+button {
+    border: none;
+    display: inline-block;
+    font-family: inherit;
+    background-color: lightgray;
+    color: indigo;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+
+button:hover {
+    background-color: red;
+    opacity: 0.6;
+    cursor: pointer;
+    color: mintcream;
+    opacity: 0.8;        
+}
+
+button:focus {
+    background-color: red;
+    opacity: 0.6;
+    cursor: pointer;
+    color: mintcream;
+    opacity: 0.8;        
+}
+
+.button:hover {
+    background-color: red;
+    opacity: 0.6;
+    cursor: pointer;
+    color: mintcream;
+    opacity: 0.8;        
+}
+
+.button:focus {
+    background-color: red;
+    opacity: 0.6;
+    cursor: pointer;
+    color: mintcream;
+    opacity: 0.8;        
+}
+
+button:active {
+    background-color: green;
+    border: 2px solid black;
+}
+
+button:focus {
+    background-color: green;
+    border: 2px solid black;
+}
+
+.button:active {
+    background-color: green;
+    border: 2px solid black;
+}
+
+.button:focus {
+    background-color: green;
+    border: 2px solid black;
+}
+
+/* Navigation/profile/header/footer begin here */
+
+/*------------> AI interaction with links here <------------*/
+
+.navigation-list__item {
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    -webkit-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+}
+
+.navigation-list__item--active {
+    text-decoration: none;
+}
+
+.navigation-list__item:hover {
+    text-decoration: none;
+    border-top: 2px solid #007bff;
+    border-left: 2px solid #007bff;
+}
+
+.navigation-list__item:active {
+    border-top: 2px solid #007bff;
+    border-left: 2px solid #007bff;
+}
+
+/*------------> ^ AI interaction with links ^ <------------*/
+
+/* ---- Optional Task ---- Attempt to add transitions to navigation links from CodePen example. (Top border go down and Left border appears) 
+nav.navigation-list__item a:before
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 0px;
+    background: #FFF;
+    content: "";
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+nav.navigation-list__item a:after
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+nav.navigation-list__item a:hover:before
+{
+    height: 100%;
+}
+
+nav.navigation-list__item a:hover:after
+{
+    opacity: 0;
+    top: 100%;
+}
+
+^ ------------> ^ Optional Task ^ <------------ Attempt to add transitions to navigation links w/CodePen example. ^ */
+
+.profile__portrait {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+.page-footer {
+    clear: both;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+}
+
+.profile {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.page-header__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 200px;
+            flex: 0 1 200px;    
+}
+
+.page-header .page-header__item:last-child {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    text-align: right;
+}
+
+.navigation-list {
+    list-style-type: none;
+}
+
+.navigation-list li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/*------------> Grid begins here <------------*/
+
+.grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.grid__item {
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 0px;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.grid__item:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    cursor:pointer;
+}
+
+.work-title {
+    text-align: center;
+}
+
+.about-section {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-main-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.contact-box {
+    margin: 20px;
+    padding: 10px;
+}
+
+.contact-box a:hover{
+    color: #007bff;
+}
+
+
+/*-------> Media queries begin here <-------*/
+
+@media all and (max-width: 500px) {
+    .grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+@media all and (min-width: 500px) and (max-width: 750px){
+    .grid {
+        -ms-grid-columns: 1fr 10px 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
+@media all and (max-width: 750px){
+    .grid {
+        grid-gap: 10px;
+    }
+    .grid__item:last-child {
+        grid-column: auto / auto;
+        grid-row:auto / auto;
+    }
+    h1 {
+        font-size: 22px;
+    }
+}
+
+/*------------> Animations begins here <------------*/
+
+
+/*@keyframes color-change {
+    from {
+        fill: #edc655;
+    }
+    to {
+        fill: #f76414;
+    }
+} */
+
+
+@-webkit-keyframes color-change {
+    0% {
+        fill: #edc655;
+    }
+    50% {
+        fill: #fcffad;
+    }
+    100% {
+        fill: #f76414;
+    }
+}
+
+
+@keyframes color-change {
+    0% {
+        fill: #edc655;
+    }
+    50% {
+        fill: #fcffad;
+    }
+    100% {
+        fill: #f76414;
+    }
+} 
+
+/*
+.sun {
+    animation-duration: 4s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+} */
+
+.sun {
+    -webkit-animation: 4s color-change infinite alternate linear;
+            animation: 4s color-change infinite alternate linear;
+
+}
+
+@-webkit-keyframes cloud-move {
+    from {
+        -webkit-transform: translate(0, 50px);
+                transform: translate(0, 50px);
+    }
+    to {
+        -webkit-transform: translate(200px, 50px);
+                transform: translate(200px, 50px);
+    }
+}
+
+@keyframes cloud-move {
+    from {
+        -webkit-transform: translate(0, 50px);
+                transform: translate(0, 50px);
+    }
+    to {
+        -webkit-transform: translate(200px, 50px);
+                transform: translate(200px, 50px);
+    }
+}
+
+.cloud-front {
+    -webkit-animation-duration: 30s;
+            animation-duration: 30s;
+    -webkit-animation-name: cloud-move;
+            animation-name: cloud-move;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate; /*beginning to end then back to beginning */
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
+/*
+.cloud-front {
+    animation: 30s cloud-move infinite alternate linear;
+} */
+
+@-webkit-keyframes cloud-move-reverse {
+    from {
+        -webkit-transform: translate(446px, 48px);
+                transform: translate(446px, 48px);
+    }
+    to {
+        -webkit-transform: translate(100px, 48px);
+                transform: translate(100px, 48px);
+    }
+}
+
+@keyframes cloud-move-reverse {
+    from {
+        -webkit-transform: translate(446px, 48px);
+                transform: translate(446px, 48px);
+    }
+    to {
+        -webkit-transform: translate(100px, 48px);
+                transform: translate(100px, 48px);
+    }
+}
+
+.cloud-back {
+    -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
+            animation: 34s cloud-move-reverse infinite alternate linear;
+}
