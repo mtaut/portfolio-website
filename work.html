@@ -27,29 +27,30 @@
 
     <header class="page-header">
       <div>
-        <img
-          src="img/tramway-favicon.png"
-          id="page__logo"
-          alt="logo"
-          class="page-header__item"
-        />
+        <a href="index.html">
+          <img
+            src="img/tramway-favicon.png"
+            id="page__logo"
+            alt="tramway logo"
+          />
+        </a>
         <h1 class="page-header__item">John Butts</h1>
       </div>
       <nav class="main-navigation page-header__item">
         <ul role="menubar" class="navigation-list">
           <li role="presentation">
             <a href="index.html" role="menuitem" class="navigation-list__item"
-              >Home</a
+              >home</a
             >
           </li>
           <li role="presentation">
             <a href="about.html" role="menuitem" class="navigation-list__item"
-              >About</a
+              >about</a
             >
           </li>
           <li role="presentation">
             <a href="contact.html" role="menuitem" class="navigation-list__item"
-              >Contact</a
+              >contact</a
             >
           </li>
           <li role="presentation">
@@ -57,62 +58,178 @@
               href="work.html"
               role="menuitem"
               class="navigation-list__item navigation-list__item--active"
-              >Work</a
+              >work</a
             >
           </li>
         </ul>
       </nav>
     </header>
-    <!-- Main content -->
+    <!---------------------------------- WORK CONTENT/GRID BEGINS HERE --------------------->
     <section>
-      <h2 class="work-title">Work</h2>
+      <div class="work-section">
+        <h2 class="work-title">work</h2>
+        <p>Below are some projects that I've completed with CareerFoundry.</p>
+      </div>
       <div class="grid">
-        <!-- Grid items will live here -->
+        <!--------------------- myFlix REACT ----------------->
         <div class="grid__item">
-          <h3>Project 1</h3>
-          <p>This is project 1.</p>
-          <a href="#">See project on Github</a>
+          <img src="img/myFlixImg.png" id="myFlix_img" alt="myFlixList_img" />
+          <ul class="navigation-list">
+            <h3>myFlixList</h3>
+            <p>
+              myFlixList is a movie app built with React. Users can register an
+              account, get information about movies, and add movies to a list of
+              favorites.
+            </p>
+            <h4>
+              <strong>project links:</strong>
+              <li>
+                <a
+                  href="https://github.com/mtaut/myFlixList-client"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub repo
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://myflixlist.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >live app</a
+                >
+              </li>
+            </h4>
+          </ul>
         </div>
-
-        <!--------------- MEET APP BEGINS HERE --------------->
-        <div id="meet_app" class="grid__item">
+        <!--------------- MEET APP --------------->
+        <div class="grid__item">
           <img src="img/meetApp.png" id="meet_img" alt="meet_img" />
           <ul class="navigation-list">
             <h3>Meet App</h3>
-            <li>
-              The Meet app is a serverless, PWA, built using React that allows
-              users search for a city and number of events. The data is linked
-              to a Google API.
-            </li>
-            <li><strong>Project Links:</strong></li>
-            <li>
-              <a
-                href="https://github.com/mtaut/meet"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub Repo
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://mtaut.github.io/meet/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Live App
-              </a>
-            </li>
+            <p>
+              Meet App is a serverless, PWA, built using React that allows users
+              search for a city and number of events. The data is linked to a
+              Google API.
+            </p>
+            <h4>
+              <strong>project links:</strong>
+              <li>
+                <a
+                  href="https://github.com/mtaut/meet"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub repo
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mtaut.github.io/meet/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >live app
+                </a>
+              </li>
+            </h4>
           </ul>
         </div>
+        <!------------------ myFlix ANGULAR ------------------>
         <div class="grid__item">
-          <h3>Project 3</h3>
-          <p>This is project 3.</p>
-          <a href="#">See project on GitHub</a>
+          <img
+            src="img/myFlixAngularImg.png"
+            id="myFlixAngular_img"
+            alt="myFlixAngular_img"
+          />
+          <ul class="navigation-list">
+            <h3>myFlixList Angular</h3>
+            <p>
+              myFlixList Angular is the myFlixList app built with Angular. It's
+              also connected to the same movie API.
+            </p>
+            <h4>
+              <strong>project links:</strong>
+              <li>
+                <a
+                  href="https://github.com/mtaut/myFlixList-Angular-client"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub repo
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mtaut.github.io/myFlixList-Angular-client/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >live app
+                </a>
+              </li>
+            </h4>
+          </ul>
         </div>
+        <!----------------------- CHAT APP -------------------->
         <div class="grid__item">
-          <h3>Project 4</h3>
-          <p>This is project 4.</p>
-          <a href="#">See project on GitHub</a>
+          <img src="img/chatAppImg2.png" id="chat_img" alt="chatApp_img" />
+          <ul class="navigation-list">
+            <h3>Chat App</h3>
+            <p>
+              Chat App is chat application built with React Native and Expo.
+            </p>
+            <h4>
+              <strong>project links:</strong>
+              <li>
+                <a
+                  href="https://github.com/mtaut/chat-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub repo
+                </a>
+              </li>
+            </h4>
+          </ul>
+        </div>
+        <!---------------------- myFlixList MOVIE API------------->
+        <div class="grid__item">
+          <h2>myFlixList Movie API</h2>
+          <p>
+            myFlixList Movie API is the API for myFlixList React and Angular
+            apps.
+          </p>
+          <a href="https://github.com/mtaut/myFlixList">GitHub repo</a>
+        </div>
+        <!---------------------- POKEDEX ----------------------->
+        <div class="grid__item">
+          <img src="img/pokedexImg.png" id="pokedex_img" alt="pokedex_img" />
+          <ul class="navigation-list">
+            <h3>Pokémon Pokédex App</h3>
+            <p>
+              Pokémon Pokédex app is a simple app that pulls images and
+              information about Pokémon from an API.
+            </p>
+            <h4>
+              <strong>project links:</strong>
+              <li>
+                <a
+                  href="https://github.com/mtaut/Pokedex-App"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub repo
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mtaut.github.io/Pokedex-App/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >live app
+                </a>
+              </li>
+            </h4>
+          </ul>
         </div>
       </div>
     </section>
@@ -120,9 +237,12 @@
     <footer class="page-footer">
       <p>Find me on</p>
       <div class="social-media">
-        <img src="img/github_icon.svg" id="github__icon" alt="Github" />
-        <img src="img/twitter_icon.svg" id="twitter__icon" alt="twitter" />
-        <img src="img/linkedin_icon.svg" id="linkedin__icon" alt="LinkedIn" />
+        <a href="https://github.com/mtaut" target="_blank" class="github-link">
+          <img src="img/github_icon.svg" id="github__icon" alt="Github" />
+        </a>
+        <a href="https://www.linkedin.com/in/johnbutts17" target="_blank">
+          <img src="img/linkedin_icon.svg" id="linkedin__icon" alt="LinkedIn" />
+        </a>
       </div>
     </footer>
   </body>
