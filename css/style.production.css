@@ -47,7 +47,7 @@ a {
 }
 
 a:hover {
-  color: #00937d;
+  color: #4682b4;
 }
 
 a:active {
@@ -90,34 +90,35 @@ a:focus {
 .navigation-list__item:focus {
   /* when clicking on list item */
   text-decoration: none;
-  color: #0033a0;
+  color: #4682b4;
 }
 
 .navigation-list__item--active {
   text-decoration: none;
-  color: #00937d;
-  border-top: 2px solid #00937d;
-  border-left: 2px solid #00937d;
+  color: #4682b4;
+  border-top: 2px solid #4682b4;
+  border-left: 2px solid #4682b4;
 }
 
 .navigation-list__item:hover {
   text-decoration: none;
-  border-top: 2px solid #00937d;
-  border-left: 2px solid #00937d;
+  border-top: 2px solid #4682b4;
+  border-left: 2px solid #4682b4;
 }
 
 .navigation-list__item:active {
   /* when clicking on list item */
-  border-top: 2px solid #0033a0;
-  border-left: 2px solid #0033a0;
+  border-top: 2px solid #4682b4;
+  border-left: 2px solid #4682b4;
 }
 
 .profile__portrait {
   float: left;
-  width: 250px;
-  height: 250px;
-  margin-right: 40px;
-  border-radius: 50%;
+  width: 270px;
+  height: 270px;
+  border-radius: 45%;
+  display: block;
+  object-fit: cover;
 }
 
 .page-footer {
@@ -257,11 +258,11 @@ a:focus {
 }
 
 .contact-box a:hover {
-  color: #2e8b57;
+  color: #4682b4;
 }
 
 .contact-box a:active {
-  color: #0033a0;
+  color: #4682b4;
 }
 
 /*-------> Media queries begin here <-------*/
