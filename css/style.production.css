@@ -11,7 +11,7 @@ Colors used
 Background color - #f7f5ed snowfall white
 Text color - #132257 navy blue (pantone)
 Secondary color - #0033a0 pacific blue
-Hover color - #00937d neptune green
+Hover color - #4682b4 steel blue (was using #00937d neptune green)
 */
 
 body {
@@ -113,24 +113,19 @@ a:focus {
 }
 
 .profile__portrait {
-  float: left;
-  width: 270px;
-  height: 270px;
-  border-radius: 45%;
-  display: block;
+  width: 230px;
+  height: 200px;
+  border-radius: 50%;
   object-fit: cover;
 }
 
 .page-footer {
-  clear: both;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .profile {
@@ -263,6 +258,26 @@ a:focus {
 
 .contact-box a:active {
   color: #4682b4;
+}
+
+.work-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  gap: 20px;
+}
+
+.profile__content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile__text {
+  text-align: left;
+  max-width: 500px;
 }
 
 /*-------> Media queries begin here <-------*/
